@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>
+            Student Information
+        </h1>
+        <form action="Data.php" method="post">
+            <label for="FirstName">First Name</label>
+            <input type="text" name="FName" id="FirstName">
+            <br>
+            <br>
+            <label for="MiddleName">Middle Name</label>
+            <input type="text" name="MName" id="MiddleName">
+            <br>
+            <br>
+            <label for="LastName">Last Name</label>
+            <input type="text" name="LName" id="LastName">
+            <br>
+            <br>
+            <label for="MobileNumber">Mobile Number</label>
+            <input type="number" name="MNumber" id="MobileNumber">
+            <br>
+            <br>
+            <label for="EmailId">Email Id</label>
+            <input type="email" name="EmailId" id="EmailId">
+            <br>
+            <br>
+            <label for="Address"> Student Address</label>
+            <br>
+            <textarea name="Address" id="Address" cols="5" rows="5"></textarea>
+            <br>
+            <br>
+            <label>Gender</label>
+            <br>
+            <br>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>
+            <input type="radio" id="Other" name="Gender" value="Other">
+            <label for="Other">Other</label>
+            <br>
+            <br>
+            <label>Select the Languages</label>
+            <br>
+            <br>
+            <label for="Language1">C Language </label>
+            <input type="checkbox" id=" Language1" name="Lang" value="C">
+            <label for="Language2">CPP Language</label>
+            <input type="checkbox" id="Language2" name="Lang" value="Cpp">
+            <label for="Language3">Java</label>
+            <input type="Checkbox" id="Language3" name="Lang" value="Java">
+            <br>
+            <br>
+            <label for="State">Select the state</label>
+            <br>
+            <select name="State" id="State">
+                <option value="none">---Select State---</option>
+                <option value="Goa">Goa</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="UP">UP</option>
+                <option Value="MP">MP</option>
+            </select>
+        </form>
+    </body>
+</html>
